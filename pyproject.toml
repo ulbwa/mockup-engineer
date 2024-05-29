@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mockup_engineer"
+version = "0.1.0"
+description = ""
+authors = ["ульба <ulbwa@icloud.com>"]
+readme = "README.md"
+repository = "https://github.com/ulbwa/mockup-engineer"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.12"
+pydantic = "^2.6.3"
+asyncer = "^0.0.7"
+pillow = "^10.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

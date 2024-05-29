@@ -1,0 +1,732 @@
+[
+    [
+        [],
+        {
+            "id": "16ab26b4-efa0-405d-a602-4db01a5ee8a5",
+            "manufacturer": "Apple",
+            "name": "iPhone 13",
+            "type": [
+                [
+                    "smartphone"
+                ],
+                {}
+            ],
+            "resolution": [
+                [
+                    1170,
+                    2532
+                ],
+                {}
+            ],
+            "released_at": "2021-09-24",
+            "can_rotate": true,
+            "templates": [
+                [
+                    [],
+                    {
+                        "id": "827e3186-2f14-4515-a727-ea5a2bf5a21e",
+                        "color": [
+                            [
+                                "Blue"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1170,
+                                2532
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13/blue.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "8b66e200-e4a6-4950-bb72-0c108f5cca3d",
+                        "color": [
+                            [
+                                "Midnight"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1170,
+                                2532
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13/midnight.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "d7544838-3db0-4f62-83eb-9a4f3fca7243",
+                        "color": [
+                            [
+                                "Pink"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1170,
+                                2532
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13/pink.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "b6ff143f-f199-4ac2-9aac-4e0bbaec2359",
+                        "color": [
+                            [
+                                "Red"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1170,
+                                2532
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13/red.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "485d400c-1755-4e12-8993-2b767f36a35a",
+                        "color": [
+                            [
+                                "Starlight"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1170,
+                                2532
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13/starlight.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ]
+            ]
+        }
+    ],
+    [
+        [],
+        {
+            "id": "5c1baef7-930f-489f-99e3-02eace884ea6",
+            "manufacturer": "Apple",
+            "name": "iPhone 13 Mini",
+            "type": [
+                [
+                    "smartphone"
+                ],
+                {}
+            ],
+            "resolution": [
+                [
+                    1080,
+                    2340
+                ],
+                {}
+            ],
+            "released_at": "2021-09-24",
+            "can_rotate": true,
+            "templates": [
+                [
+                    [],
+                    {
+                        "id": "a6129953-fb6b-48a6-a935-46998bb3d988",
+                        "color": [
+                            [
+                                "Blue"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1080,
+                                2340
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13mini/blue.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "08d5cd49-625b-4a8d-8019-ccd3c8a6b3ea",
+                        "color": [
+                            [
+                                "Midnight"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1080,
+                                2340
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13mini/midnight.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "e85911db-8b49-4671-ac7f-08f27e8d577f",
+                        "color": [
+                            [
+                                "Pink"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1080,
+                                2340
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13mini/pink.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "82484c7c-24d4-46ac-8fa1-70f245dad33f",
+                        "color": [
+                            [
+                                "Red"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1080,
+                                2340
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13mini/red.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "3a96fd14-caab-4105-bbcd-d6f673beb272",
+                        "color": [
+                            [
+                                "Starlight"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1080,
+                                2340
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13mini/starlight.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ]
+            ]
+        }
+    ],
+    [
+        [],
+        {
+            "id": "ea412b46-9b09-4af8-a3c8-554989377cc5",
+            "manufacturer": "Apple",
+            "name": "iPhone 13 Pro",
+            "type": [
+                [
+                    "smartphone"
+                ],
+                {}
+            ],
+            "resolution": [
+                [
+                    1170,
+                    2532
+                ],
+                {}
+            ],
+            "released_at": "2021-09-24",
+            "can_rotate": true,
+            "templates": [
+                [
+                    [],
+                    {
+                        "id": "4dbfedd2-b09d-44be-862b-456e9538a9c3",
+                        "color": [
+                            [
+                                "Sierra Blue"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1170,
+                                2532
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13pro/blue.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "50cf93e1-9ab8-4754-9a15-0aa44237e9f8",
+                        "color": [
+                            [
+                                "Gold"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1170,
+                                2532
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13pro/gold.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "8f5ec86e-84d6-467c-bb63-56ed2e44fc0a",
+                        "color": [
+                            [
+                                "Graphite"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1170,
+                                2532
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13pro/graphite.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "140420bf-ca86-4eb1-9b11-571f96a1b24a",
+                        "color": [
+                            [
+                                "Silver"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1170,
+                                2532
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13pro/silver.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ]
+            ]
+        }
+    ],
+    [
+        [],
+        {
+            "id": "972f8a4c-43a2-4e3b-99d4-4fe53ef8b740",
+            "manufacturer": "Apple",
+            "name": "iPhone 13 Pro Max",
+            "type": [
+                [
+                    "smartphone"
+                ],
+                {}
+            ],
+            "resolution": [
+                [
+                    1284,
+                    2778
+                ],
+                {}
+            ],
+            "released_at": "2021-09-24",
+            "can_rotate": true,
+            "templates": [
+                [
+                    [],
+                    {
+                        "id": "90760572-5fb4-4e7a-88d2-c05e88d1cd19",
+                        "color": [
+                            [
+                                "Sierra Blue"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1284,
+                                2778
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13promax/blue.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "ff6a35e8-612d-42b2-b211-f2be6769ba15",
+                        "color": [
+                            [
+                                "Gold"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1284,
+                                2778
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13promax/gold.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "ba03fb4b-1280-4221-adb6-e228f01f535f",
+                        "color": [
+                            [
+                                "Graphite"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1284,
+                                2778
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13promax/graphite.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ],
+                [
+                    [],
+                    {
+                        "id": "d4cb5b2a-e863-43c7-aca3-eb3811343ebd",
+                        "color": [
+                            [
+                                "Silver"
+                            ],
+                            {
+                                "emoji": null
+                            }
+                        ],
+                        "screenshot_start_point": [
+                            [
+                                201,
+                                201
+                            ],
+                            {}
+                        ],
+                        "screenshot_size": [
+                            [
+                                1284,
+                                2778
+                            ],
+                            {}
+                        ],
+                        "frame": [
+                            [
+                                "iphone13promax/silver.png"
+                            ],
+                            {}
+                        ],
+                        "mask": null
+                    }
+                ]
+            ]
+        }
+    ]
+]
