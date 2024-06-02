@@ -2,7 +2,7 @@ from typing import Optional, Tuple, Sequence, Dict
 
 from pydantic import validate_call, constr
 
-from . import RestorableModel
+from . import BaseRestorableModel
 
 EMOJI_MAPPER = {
     "⬛️": ["black", "graphite", "grey", "gray", "dark", "midnight"],
@@ -17,7 +17,7 @@ EMOJI_MAPPER = {
 }
 
 
-class Color(RestorableModel):
+class Color(BaseRestorableModel):
     """
     Class representing a color.
     """

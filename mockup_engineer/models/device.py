@@ -14,7 +14,7 @@ from uuid import UUID
 
 from pydantic import validate_call, ConfigDict, UUID4, constr, SkipValidation
 
-from . import RestorableModel
+from . import BaseRestorableModel
 from .size2d import Size2D
 from ..enums.device_type import DeviceType
 from ..exceptions.template_not_found import TemplateNotFound
@@ -27,7 +27,7 @@ _MANUFACTURER_VALIDATOR = constr(min_length=1)
 _NAME_VALIDATOR = constr(min_length=1)
 
 
-class Device(RestorableModel, Iterable["Template"]):
+class Device(BaseRestorableModel, Iterable["Template"]):
     """
     Class representing a device.
     """

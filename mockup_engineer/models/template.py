@@ -3,7 +3,7 @@ from uuid import UUID
 
 from pydantic import validate_call, UUID4, ConfigDict, SkipValidation
 
-from . import RestorableModel
+from . import BaseRestorableModel
 from .color import Color
 from .device import Device
 from .point2d import Point2D
@@ -12,7 +12,7 @@ from ..exceptions.duplicate_identifier import DuplicateIdentifier
 from ..readers import BaseReader, BaseAsyncReader  # noqa
 
 
-class Template(RestorableModel):
+class Template(BaseRestorableModel):
     """
     Class representing a template.
     """

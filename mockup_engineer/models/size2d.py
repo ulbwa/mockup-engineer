@@ -2,13 +2,13 @@ from typing import Tuple, Sequence, Dict
 
 from pydantic import validate_call, conint
 
-from . import RestorableModel
+from . import BaseRestorableModel
 
 _WIDTH_VALIDATOR = conint(ge=1)
 _HEIGHT_VALIDATOR = conint(ge=1)
 
 
-class Size2D(RestorableModel):
+class Size2D(BaseRestorableModel):
     """
     Class representing a 2-dimensional size.
     """

@@ -11,10 +11,10 @@ from typing import (
     AsyncGenerator,
 )
 
-from mockup_engineer.models import RestorableModel
+from mockup_engineer.models import RestorableModel, BaseRestorableModel
 
 
-class Reader(Protocol):
+class Reader(RestorableModel, Protocol):
     """
     Protocol for reading and writing bytes from various sources.
     """
@@ -81,7 +81,7 @@ class Reader(Protocol):
         """
 
 
-class AsyncReader(Protocol):
+class AsyncReader(RestorableModel, Protocol):
     """
     Protocol for asynchronous reading and writing bytes from various sources.
     """
@@ -148,7 +148,7 @@ class AsyncReader(Protocol):
         """
 
 
-class BaseReader(Reader, RestorableModel, ABC):
+class BaseReader(Reader, BaseRestorableModel, ABC):
     """
     Abstract base class for reading and writing bytes from various sources.
     """
@@ -175,7 +175,7 @@ class BaseReader(Reader, RestorableModel, ABC):
         return self.iter_chunks(1024)
 
 
-class BaseAsyncReader(AsyncReader, RestorableModel, ABC):
+class BaseAsyncReader(AsyncReader, BaseRestorableModel, ABC):
     """
     Abstract base class for asynchronously reading and writing bytes from various sources.
     """

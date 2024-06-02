@@ -2,13 +2,13 @@ from typing import Tuple, Sequence, Dict
 
 from pydantic import validate_call, conint
 
-from . import RestorableModel
+from . import BaseRestorableModel
 
 _X_VALIDATOR = conint(ge=0)
 _Y_VALIDATOR = conint(ge=0)
 
 
-class Point2D(RestorableModel):
+class Point2D(BaseRestorableModel):
     """
     Class representing a 2-dimensional point.
     """

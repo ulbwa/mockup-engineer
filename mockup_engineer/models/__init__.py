@@ -1,12 +1,12 @@
 from abc import ABC, abstractmethod
-from typing import Tuple, Sequence, Dict, TypeVar, Type
+from typing import Tuple, Sequence, Dict, TypeVar, Type, Protocol
 
 T = TypeVar("T", bound="RestorableModel")
 
 
-class RestorableModel(ABC):
+class RestorableModel(Protocol):
     """
-    Abstract base class for restorable models.
+    Protocol for restorable models.
     """
 
     @abstractmethod
@@ -25,7 +25,16 @@ class RestorableModel(ABC):
         :param __args_kwargs: A tuple of positional arguments and a dictionary of named arguments.
         :return: A new instance of the model.
         """
-        return cls(*__args_kwargs[0], **__args_kwargs[1])  # type: ignore
 
 
-__all__ = ("RestorableModel",)
+class BaseRestorableModel(RestorableModel, ABC):
+    """
+    Abstract base class for restorable models.
+    """
+
+    @classmethod
+    def load(cls: Type[T], __args_kwargs: Tuple[Sequence, Dict], /) -> T:
+        return cls(*__args_kwargs[0], **__args_kwargs[1])
+
+
+__all__ = ("RestorableModel", "BaseRestorableModel")
