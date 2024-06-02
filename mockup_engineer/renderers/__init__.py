@@ -13,7 +13,7 @@ from ..readers import Reader, BaseReader
 
 class Renderer(Protocol):
     """
-    An interface for working with images.
+    A protocol for working with images.
     """
 
     def __init__(self, __size: Size2D, /):
