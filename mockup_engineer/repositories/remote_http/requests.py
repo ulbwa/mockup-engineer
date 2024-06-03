@@ -143,4 +143,4 @@ class RequestsRepository(BaseRepository):
         return f"{self.__class__.__name__}({str(self.__url)!r}, headers={self.__headers!r})"
 
 
-__all__ = ("BytesIORepository",)
+__all__ = ("RequestsRepository",)

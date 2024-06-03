@@ -71,11 +71,7 @@ class Color(BaseRestorableModel):
         if self.__emoji is not None:
             return self.__emoji
 
-        for emoji, colors in EMOJI_MAPPER.items():
-            if any(map(lambda color: color in self.__name.lower(), colors)):
-                return emoji
-
-        return "🔸"
+        return self.__get_emoji()
 
     @emoji.setter
     @validate_call
@@ -94,6 +90,13 @@ class Color(BaseRestorableModel):
 
     def dump(self) -> Tuple[Sequence, Dict]:
         return (self.__name,), dict(emoji=self.__emoji)
+
+    def __get_emoji(self) -> str:
+        for emoji, colors in EMOJI_MAPPER.items():
+            if any(map(lambda color: color in self.__name.lower(), colors)):
+                return emoji
+
+        return "🔸"
 
 
 __all__ = ("Color",)
